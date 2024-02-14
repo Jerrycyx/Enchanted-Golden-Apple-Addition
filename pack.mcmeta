@@ -2,6 +2,6 @@
     "pack": {
         "pack_format": 26,
         "supported_formats": [4,26],
-        "description": "Language support for \u00a7oEnchanted Golden Apple Addition\u00a7r."
+        "description": "Add recipes, advancements,... for \u00a7lenchanted golden apples\u00a7r."
     }
 }

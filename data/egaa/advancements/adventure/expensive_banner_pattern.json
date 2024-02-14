@@ -1,0 +1,34 @@
+{
+    "parent": "egaa:adventure/godlike_apple",
+    "criteria": {
+        "mojang_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mojang_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:mojang_banner_pattern"
+        },
+        "title": {
+            "translate": "Expensive Banner Pattern"
+        },
+        "description": {
+            "translate": "Craft a banner pattern with Mojang logo."
+        },
+        "frame": "goal"
+    },
+    "requirements": [
+        [
+            "mojang_banner_pattern"
+        ]
+    ]
+}

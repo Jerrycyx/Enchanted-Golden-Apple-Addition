@@ -1,0 +1,35 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_gold_ingot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:gold_ingot"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "minecraft:enchanted_golden_apple"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_gold_ingot"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "egaa:craft_enchanted_golden_apple_with_apple",
+        "egaa:craft_enchanted_golden_apple_with_golden_apple"
+      ]
+    }
+  }

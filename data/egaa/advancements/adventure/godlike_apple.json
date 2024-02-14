@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "enchanted_golden_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:enchanted_golden_apple"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": {
+            "translate": "Godlike Apple"
+        },
+        "description": {
+            "translate": "Hold an enchanted golden apple."
+        }
+    },
+    "requirements": [
+        [
+            "enchanted_golden_apple"
+        ]
+    ]
+}
