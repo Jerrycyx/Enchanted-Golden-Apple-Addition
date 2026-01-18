@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAB",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:gold_block",
+    "B": "minecraft:gold_ingot",
+    "C": "minecraft:golden_apple"
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple"
+  },
+  "group": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple"
+}

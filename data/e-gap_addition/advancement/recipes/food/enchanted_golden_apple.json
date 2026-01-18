@@ -1,0 +1,129 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:apple"
+          }
+        ]
+      }
+    },
+    "has_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_apple"
+          }
+        ]
+      }
+    },
+    "has_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    },
+    "has_gold_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe_with_apple": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_apple"
+      }
+    },
+    "has_the_recipe_with_golden_apple_1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_1"
+      }
+    },
+    "has_the_recipe_with_golden_apple_2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_2"
+      }
+    },
+    "has_the_recipe_with_golden_apple_3": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_3"
+      }
+    },
+    "has_the_recipe_with_golden_apple_4": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_4"
+      }
+    },
+    "has_the_recipe_with_golden_apple_5": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_5"
+      }
+    },
+    "has_the_recipe_with_golden_apple_6": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_6"
+      }
+    },
+    "has_the_recipe_with_golden_apple_7": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_7"
+      }
+    },
+    "has_the_recipe_with_golden_apple_8": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_8"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_apple",
+      "has_golden_apple",
+      "has_gold_ingot",
+      "has_gold_block",
+      "has_the_recipe_with_apple",
+      "has_the_recipe_with_golden_apple_1",
+      "has_the_recipe_with_golden_apple_2",
+      "has_the_recipe_with_golden_apple_3",
+      "has_the_recipe_with_golden_apple_4",
+      "has_the_recipe_with_golden_apple_5",
+      "has_the_recipe_with_golden_apple_6",
+      "has_the_recipe_with_golden_apple_7",
+      "has_the_recipe_with_golden_apple_8"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "e-gap_addition:craft_enchanted_golden_apple_with_apple",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_1",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_2",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_3",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_4",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_5",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_6",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_7",
+      "e-gap_addition:craft_enchanted_golden_apple_with_golden_apple_8"
+    ]
+  }
+}

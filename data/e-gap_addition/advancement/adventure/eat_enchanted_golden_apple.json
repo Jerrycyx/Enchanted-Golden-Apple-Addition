@@ -1,0 +1,30 @@
+{
+    "parent": "e-gap_addition:adventure/hold_enchanted_golden_apple",
+    "criteria": {
+        "eat_an_enchanted_golden_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_golden_apple"
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_golden_apple"
+        },
+        "title": {
+            "translate": "Overpowered"
+        },
+        "description": {
+            "translate": "Eat an enchanted golden apple."
+        },
+        "frame": "challenge"
+    },
+    "requirements": [
+        [
+            "eat_an_enchanted_golden_apple"
+        ]
+    ]
+}

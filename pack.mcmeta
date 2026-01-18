@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "min_format": [82, 0],
+        "max_format": [94, 1],
+        "description": "Add recipes, advancements,... for \u00a7lenchanted golden apples\u00a7r."
+    }
+}

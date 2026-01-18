@@ -1,0 +1,32 @@
+{
+    "parent": "e-gap_addition:adventure/hold_enchanted_golden_apple",
+    "criteria": {
+        "mojang_banner_pattern": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mojang_banner_pattern"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:mojang_banner_pattern"
+        },
+        "title": {
+            "translate": "This shape... it looks familiar..."
+        },
+        "description": {
+            "translate": "Craft a banner pattern with an enchanted golden apple."
+        },
+        "frame": "goal"
+    },
+    "requirements": [
+        [
+            "mojang_banner_pattern"
+        ]
+    ]
+}
